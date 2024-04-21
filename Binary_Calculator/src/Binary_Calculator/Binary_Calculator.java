@@ -1,3 +1,9 @@
+/*Amerike University
+* Alvarez López Uri Yael.
+* Object Oriented Programming
+* Binary Calculator
+*/
+
 package Binary_Calculator;
 
 import java.util.Scanner;

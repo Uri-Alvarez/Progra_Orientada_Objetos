@@ -1,4 +1,8 @@
-
+/*Amerike Univerity
+* Alvarez López Uri Yael.
+* Object Oriented Programming,
+* To Do List App
+*/
 package to_do_list_app;
 
 import java.util.ArrayList;
