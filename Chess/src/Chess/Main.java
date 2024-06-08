@@ -1,5 +1,4 @@
-
-package Chess;
+package Chess.src.Chess;
 
 public class Main {
     public static void main(String[] args) {
