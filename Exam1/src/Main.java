@@ -49,9 +49,9 @@ public class Main {
                     shape = new Triangle(side1, side2, side3);
                     break;
                 case 4:
-                    System.out.print("Enter length: ");
+                    System.out.print("Enter base: ");
                     double length = scanner.nextDouble();
-                    System.out.print("Enter width: ");
+                    System.out.print("Enter height: ");
                     double width = scanner.nextDouble();
                     shape = new Rectangle(length, width);
                     break;
