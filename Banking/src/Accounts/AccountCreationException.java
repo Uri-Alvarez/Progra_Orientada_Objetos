@@ -1,4 +1,4 @@
-package Account;
+package Accounts;
 
 public class AccountCreationException extends Exception {
     public AccountCreationException(String message) {
