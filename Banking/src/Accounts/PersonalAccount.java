@@ -4,7 +4,7 @@ import java.util.UUID;
 
 public class PersonalAccount extends AbstractAccount {
     private static final double MAX_WITHDRAWAL_LIMIT = 500;
-    private static final double MIN_BALANCE = 1000;
+    private static final double MIN_BALANCE = 200;
     private static final double OPEN_FEE = 2;
     private static final double MAINTENANCE_FEE = 10;
 
