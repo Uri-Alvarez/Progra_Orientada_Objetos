@@ -1,0 +1,22 @@
+-- Libros Tables
+CREATE TABLE Libros (
+    CodLibro INT PRIMARY KEY,
+    Titulo VARCHAR(255),
+    Autor VARCHAR(255),
+    Editorial VARCHAR(255)
+);
+
+-- Lectores Table
+CREATE TABLE Lectores (
+    NombreLector VARCHAR(255) PRIMARY KEY
+);
+
+-- Prestamos Table
+CREATE TABLE Prestamos (
+    CodLibro INT,
+    NombreLector VARCHAR(255),
+    FechaDev DATE,
+    FOREIGN KEY (CodLibro) REFERENCES Libros(CodLibro),
+    FOREIGN KEY (NombreLector) REFERENCES Lectores(NombreLector)
+);
+
